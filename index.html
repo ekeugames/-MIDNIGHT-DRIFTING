@@ -1386,16 +1386,7 @@
         });
       });
       
-      // Download button
-      const downloadBtns = document.querySelectorAll('.download-button-main');
-      downloadBtns.forEach(btn => {
-        btn.addEventListener('click', function() {
-          this.innerHTML = '<i class="fas fa-download"></i> Download Now';
-          this.classList.remove('pulse');
-          alert('Download starting... Thank you for choosing Car Driving Midnight Drifting!');
-        });
-      });
-      
+     
       // Form submission
       const ctaForm = document.querySelector('.cta-form');
       ctaForm.addEventListener('submit', function(e) {
@@ -1411,3 +1402,4 @@
 </body>
 
 </html>
+
